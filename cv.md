@@ -25,10 +25,8 @@ But I more interesting visual side. That is why I`m here. My goal is to deepen m
 
 ```
 function objectPropertiesSum(object) {
-
   let values = Object.values(object);
   let totalSum = 0;
-
     for (const value of values) {
       if (typeof value === 'number') {
         totalSum += value;
@@ -37,7 +35,6 @@ function objectPropertiesSum(object) {
         values.push(...Object.values(value));
       }
     }
-
     return totalSum;
 }
 ```
