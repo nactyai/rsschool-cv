@@ -1,5 +1,5 @@
 ## Anastasiia Nicheporuk ### 
-<img src="https://i.pinimg.com/736x/9d/ec/da/9decda9b5cf0f1b838cbfd8dc564e185.jpg" width=400/>
+<img src="https://i.pinimg.com/736x/9d/ec/da/9decda9b5cf0f1b838cbfd8dc564e185.jpg" width=300/>
 
 ---
 ### My Contact Info:
