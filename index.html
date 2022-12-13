@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__background">
+      <div class="container">
+        <div class="header__top-inner">
+
+          <a class="logo" href="#">
+            <img src="./assets/img/cv.svg" alt="logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#summary" class="menu__list-link">
+                  summary
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#contacts" class="menu__list-link">
+                  contacts
+                </a>
+
+              </li>
+              <li class="menu__list-item">
+                <a href="#skills" class="menu__list-link">
+                  skills
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#code" class="menu__list-link">
+                  code
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#education" class="menu__list-link">
+                  education
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#languages" class="menu__list-link">
+                  languages
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="photo__info">
+            <img class="photo__info-img" src="./assets/img/cat.jpg" alt="cat">
+          </div>
+          <div class="contact__info">
+            <h1 class="header__name">Anastasiia</h1>
+            <h3 class="header__position">Junior frontend developer</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="summary">
+      <div class="container">
+        <p class="summary__info">
+          I am 26 years old, I work as a computer engineer.
+          But I more interesting visual side. That is why I`m here. My goal is to deepen my knowledge of the frontend.
+        </p>
+      </div>
+    </div>
+
+    <div class="about">
+      <section id="contacts">
+        <h2 class="title">contacts</h2>
+        <ul class="contacts__data-item">
+          <li class="contact__data-items">
+            phone: <a href="tel:+3809848125**">+38 098 481-25-**</a>
+          </li>
+          <li class="contact__data-items">
+            email: <a href="mailto:eldess0*@gmail.com">eldess0*@gmail.com</a>
+          </li>
+          <li class="contact__data-items">
+            github: <a href="mailto:@naztya">@naztya</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2 class="title">skills</h2>
+        <ul class="skills__items">
+          <li class="skills__item">html</li>
+          <li class="skills__item">css</li>
+          <li class="skills__item">javascript (fundamentals)</li>
+          <li class="skills__item">photoshop</li>
+        </ul>
+      </section>
+
+      <section id="code">
+        <h2 class="title">code</h2>
+        <pre>
+          function objectPropertiesSum(object) {
+            let values = Object.values(object);
+            let totalSum = 0;
+              for (const value of values) {
+                if (typeof value === 'number') {
+                  totalSum += value;
+                } 
+                else if (value instanceof Object) {
+                  values.push(...Object.values(value));
+                }
+              }
+              return totalSum;
+          }
+          </pre>
+      </section>
+
+      <section id="education">
+        <h2 class="title">education</h2>
+        <ul class="education__items">
+          <li>Khmelnytskyi National University / Computer Engineering</li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2 class="title">languages</h2>
+        <ul class="languages__items">
+          <li class="languages__item">ukrainian - native speaker</li>
+          <li class="languages__item">english - A2 (B1 in process…)</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <a class="rs" href="https://rs.school/">
+      <img class="rs__icon" src="./assets/img/rs_school.svg" alt="rs_school icon">
+    </a>
+    <a class="year" href="">
+      2022
+    </a>
+    <a class="github" href="https://github.com/naztya">
+      <img class="github__icon" src="./assets/img/github.svg" alt="github icon">
+    </a>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list-item {
+  list-style-type: none;
+}
+
+.menu__list-item+.menu__list-item {
+  margin-left: 25px;
+}
+
+.menu__list-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 0.7;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.menu__list-link:hover {
+  border-bottom: 1px solid #b8d356;
+}
+
+.header__background {
+  background: rgb(247, 238, 238);
+}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.header__content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.photo__info-img {
+  width: 263px;
+  height: 214px;
+  border-radius: 50%;
+}
+
+.contact__info {
+  text-align: center;
+}
+
+.header__name {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+.header__position {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+.contacts::before {
+  border-top: 2px solid #000;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: space-around;
+  margin: 0 auto 60px;
+  gap: 30px;
+}
+
+.about section {
+  margin-bottom: 20px;
+}
+
+.title,
+.year {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 15px;
+  letter-spacing: -1.65px;
+  color: #242121;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#code pre {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#summary {
+  margin: 0 auto 85px;
+  display: flex;
+  justify-content: center;
+}
+
+.summary__info {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer {
+  background: #f7eeee;
+  height: 85px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rs__icon,
+.github__icon {
+  width: 100px;
+}
